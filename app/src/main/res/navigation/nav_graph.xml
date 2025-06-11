@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.college.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_blankFragment"
+            app:destination="@id/blankFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_sosFragment"
+            app:destination="@id/sosFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_towcarFragment"
+            app:destination="@id/towcarFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_addcontactFragment"
+            app:destination="@id/addcontactFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_sharelocationFragment"
+            app:destination="@id/sharelocationFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_showcontactFragment"
+            app:destination="@id/showcontactFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_hospitalmapFragment"
+            app:destination="@id/hospitalmapFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_fuelFragment"
+            app:destination="@id/fuelFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_videoFragment"
+            app:destination="@id/videoFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_privacyFragment"
+            app:destination="@id/privacyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragment"
+        android:name="com.example.college.fragments.MechanicmapFragment"
+        android:label="fragment_mechanicmap"
+        tools:layout="@layout/fragment_mechanicmap" />
+    <fragment
+        android:id="@+id/sosFragment"
+        android:name="com.example.college.fragments.SosFragment"
+        android:label="fragment_sos"
+        tools:layout="@layout/fragment_sos" />
+    <fragment
+        android:id="@+id/towcarFragment"
+        android:name="com.example.college.fragments.TowcarFragment"
+        android:label="fragment_towcar"
+        tools:layout="@layout/fragment_towcar" />
+    <fragment
+        android:id="@+id/addcontactFragment"
+        android:name="com.example.college.fragments.AddcontactFragment"
+        android:label="fragment_addcontact"
+        tools:layout="@layout/fragment_addcontact" />
+    <fragment
+        android:id="@+id/showcontactFragment"
+        android:name="com.example.college.fragments.ShowcontactFragment"
+        android:label="fragment_showcontact"
+        tools:layout="@layout/fragment_showcontact" />
+    <fragment
+        android:id="@+id/sharelocationFragment"
+        android:name="com.example.college.fragments.SharelocationFragment"
+        android:label="fragment_sharelocation"
+        tools:layout="@layout/fragment_sharelocation" />
+    <fragment
+        android:id="@+id/hospitalmapFragment"
+        android:name="com.example.college.fragments.HospitalmapFragment"
+        android:label="fragment_hospitalmap"
+        tools:layout="@layout/fragment_hospitalmap" />
+    <fragment
+        android:id="@+id/fuelFragment"
+        android:name="com.example.college.fragments.FuelFragment"
+        android:label="fragment_fuel"
+        tools:layout="@layout/fragment_fuel" />
+    <fragment
+        android:id="@+id/videoFragment"
+        android:name="com.example.college.fragments.VideoFragment"
+        android:label="fragment_video"
+        tools:layout="@layout/fragment_video">
+        <argument
+            android:name="videoId"
+            app:argType="string"
+            app:nullable="false"/>
+    </fragment>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.college.AboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/privacyFragment"
+        android:name="com.example.college.PrivacyFragment"
+        android:label="fragment_privacy"
+        tools:layout="@layout/fragment_privacy" />
+</navigation>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About Last Minute"
+                android:fontFamily="@font/graduate"
+                android:textStyle="bold"
+                android:textSize="25sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_app_text"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:textAlignment="viewStart"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Key Features"
+                android:fontFamily="@font/graduate"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textSize="25sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.One-Tap SOS Button : Instantly notify your emergency contacts with your current location and a custom alert message."
+                android:padding="5dp"
+                android:textAlignment="viewStart"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2.Real-Time Location Tracking: Share your live location so loved ones can reach you faster."
+                android:padding="5dp"
+                android:textAlignment="viewStart"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3.Custom Emergency Messages: Pre-set your messages for different emergencies so you never lose time typing."
+                android:padding="5dp"
+                android:textAlignment="viewStart"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4.Trusted Contacts System: Add and manage people you trust to receive your alerts."
+                android:padding="5dp"
+                android:textAlignment="viewStart"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5.Offline Functionality: Works even with low connectivity (basic features supported)."
+                android:padding="5dp"
+                android:textAlignment="viewStart"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6.Lightweight and Fast: Optimized for performance during urgent scenarios."
+                android:padding="5dp"
+                android:textAlignment="viewStart"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7.Simple, Intuitive Interface: Designed so anyone can use it—fast and without confusion."
+                android:padding="5dp"
+                android:textAlignment="viewStart"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

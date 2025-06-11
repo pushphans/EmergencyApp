@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.College" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#fe8901</item>
+        <item name="colorPrimaryVariant">#fe8300</item>
+        <item name="android:statusBarColor">#fe6c01</item>
+        <item name="colorOnPrimary">#2F2F2F</item>
+        <item name="android:windowBackground">#615F5F</item>
+        <item name="colorSurface">#6C91B1</item>
+        <item name="colorOnSurface">#05313A</item>
+    </style>
+
+    <style name="ToolbarTitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="fontFamily">@font/graduate</item>
+    </style>
+
+    <style name="ProgressBar">
+        <item name="colorSecondary">@color/orange</item>
+        <item name="colorSecondaryVariant">@color/orange</item>
+    </style>
+</resources>

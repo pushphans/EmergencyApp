@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Last Minute Emergency</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about_app_text">Last Minute is a modern emergency assistance app built to be your silent guardian when time is critical and help needs to be instant. In unpredictable moments—whether you’re feeling unsafe, facing a medical emergency, or lost in an unfamiliar place—this app is designed to help you respond quickly and effectively.
+        At the core of Last Minute is the idea that no one should feel alone or helpless in an emergency. The app allows you to alert your trusted contacts, share your real-time location, and send SOS messages—all with just a few taps. Whether it’s day or night, crowded or isolated, help is always within reach.</string>
+</resources>
