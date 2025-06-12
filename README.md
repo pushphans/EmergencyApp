@@ -1,6 +1,6 @@
 # 🚨 Emergency App
 
-> All-in-one offline + online emergency assistance Android app with fast dial, SOS, map support, and emergency tutorials.
+> All-in-one offline + online emergency assistance Android app with fast dial, SOS, Emergency location sharing, map support, and emergency tutorials.
 
 <br>
 
